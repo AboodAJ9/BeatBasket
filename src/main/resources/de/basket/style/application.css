@@ -1,0 +1,164 @@
+.levelviewbackground{
+	-fx-background-color: linear-gradient(to top, #0a082a,#00d8f8); 
+
+}
+
+.optionView {
+	-fx-background-color: #00d8f8; 
+}
+.maintext{
+	-fx-alignment: baseline-left;
+	-fx-font-size: 50.0;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+
+.subtext{
+	-fx-font-size: 30.0;
+}
+
+.scoretext{
+	-fx-font-size: 30.0;
+	-fx-text-fill: white;
+}
+.levelText {
+	-fx-border-width: 200; 
+	-fx-font-size: 30.0; 
+	-fx-text-fill: white;
+	-fx-font-style: italic;
+}
+.iconArrow:hover {
+	-fx-scale-x: 1.25;
+	-fx-scale-y: 1.25;  
+	
+}
+.play-button {
+	-fx-min-height: 50.0;
+	-fx-min-width: 120.0;
+	-fx-font-size: 20.0;
+	-fx-background-color: linear-gradient(to left, #0a082a,#0b2e36 );
+	-fx-text-fill: white;
+	-fx-background-radius:  25.0;
+}
+.play-button:hover{
+	-fx-background-color: grey;
+}
+
+.song-title-label{
+	-fx-min-width: 160.0;
+	-fx-max-width: 160.0; 
+	-fx-font-size: 15.0; 
+	-fx-text-fill: white;
+	
+}
+
+.transparentButton{
+	-fx-background-color: transparent;
+}
+
+.homebutton{
+	-fx-min-height: 25.0;
+	-fx-min-width: 20.0;
+	-fx-font-size: 10.0;
+	-fx-background-color: linear-gradient(to left, #0a082a,#0b2e36 );
+	-fx-text-fill: white;
+	-fx-background-radius:  25.0;
+}
+
+.homebutton:hover{
+	-fx-background-color: red;
+}
+
+.control-button{
+	-fx-min-height: 50.0;
+	-fx-min-width: 400.0;
+	-fx-font-size: 25.0;
+	-fx-background-color: linear-gradient(to left, #0a082a,#0b2e36 );
+	-fx-text-fill: white;
+	-fx-background-radius:  25.0;
+}
+
+.control-button:hover{
+	-fx-background-color: grey;
+}
+
+.my-cell{
+	-fx-text-fill: red; 
+}
+
+
+.vbox-center {
+    -fx-alignment: center;
+    -fx-spacing: 20;
+    -fx-padding: 20;
+}
+
+.congratsTextLabel {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff; 
+}
+
+.scoreTextLabel {
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff; 
+    -fx-font-weight: bold;
+}
+
+.scoreLabel {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff; 
+}
+
+
+.nextLvlButton {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white; 
+    -fx-min-height: 50.0;
+	-fx-min-width: 200.0;
+	-fx-font-size: 25.0;
+	-fx-background-radius:  25.0;
+    
+}
+
+.nextLvlButton:hover{
+	-fx-background-color: grey;
+	  -fx-min-height: 50.0;
+	-fx-min-width: 200.0;
+	-fx-font-size: 25.0;
+	-fx-background-radius:  25.0;
+}
+
+.homepageButton {
+    -fx-background-color: #408080;
+    -fx-text-fill: white; 
+     -fx-min-height: 50.0;
+	-fx-min-width: 200.0;
+	-fx-font-size: 25.0;
+	-fx-background-radius:  25.0;
+}
+.homepageButton:hover{
+-fx-background-color: grey;
+  -fx-min-height: 50.0;
+	-fx-min-width: 200.0;
+	-fx-font-size: 25.0;
+	-fx-background-radius:  25.0;
+}
+
+.slider {
+    -fx-control-inner-background: #f0f0f0; /* Hintergrundfarbe des Sliders */
+}
+
+.slider .track {
+    -fx-background-color: #bfbfbf; /* Farbe des Tracks (Hintergrund des Sliders) */
+}
+
+.slider .thumb {
+    -fx-background-color: #3399ff; /* Farbe des Thumb (Griff des Sliders) */
+    -fx-background-radius: 0; /* Runde Ecken des Thumbs deaktivieren */
+    -fx-border-color: #0077cc; /* Farbe des Randes des Thumbs */
+    -fx-border-width: 1; /* Breite des Randes des Thumbs */
+    -fx-border-radius: 0; /* Runde Ecken des Randes deaktivieren */
+}
